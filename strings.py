@@ -102,3 +102,4 @@ print(f"12 * 69 = {12 * 69}") # prints "12 * 69 = 828" using f-strings (formatte
 print("This is a string with a newline character\nThis is the second line") # prints a string with a newline character 
 
 # string methods can be used to manipulate strings, such as upper(), lower(), strip(), replace(), split(), and many more. You can find a list of string methods in the Python documentation. 
+

@@ -102,4 +102,5 @@ why() # and it will print "why am I doing this...? I'm so tiered..." becouse you
 # you can use del to delete a variable 
 v = "my name is lucifer" # and now we can deleat it 
 del v # we deleated it so now it is not usable anymore, and if you try to print it, it will give you an error because it is not defined anymore (value of null) 
+v = "I took my meds at 12:03 pm" # reassigned the variable 
 
