@@ -79,7 +79,7 @@ def equation_prover():
         s = random.randint(1, 100)
     t = (int(r / s) * s - r) * -1 
     if t == r % s: 
-        print(f"""\n equation is correct
+        print(f"""\nequation is correct
 {r} % {s} = (int({r} / {s}) * {s} - {r}) * -1 = {r % s} \n""") 
     else: 
         print("\n no, the equation is not correct \n") 
@@ -105,7 +105,7 @@ def equation_prover_2():
         multiplication = f"({multiplication} * {r})"
 
     if t == r ** s:
-        print(f"""
+        print(f"""\n
 equation is correct
 {r} ** {s} = {multiplication} = {t}
 """)
@@ -132,7 +132,7 @@ def equation_prover_3():
         s = random.randint(1, 100)
     t = int(r / s)
     if t == r // s: 
-        print(f"""\n equation is correct
+        print(f"""\nequation is correct
 {r} // {s} = int({r} / {s}) = {r // s} \n""") 
     else: 
         print("\n no, the equation is not correct \n") 

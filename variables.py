@@ -83,11 +83,11 @@ print(s + " " + q + " " + r) # it would print "Hello... I'm tiered... it's 3:28 
 x = 10 # it would overwrite the value of x to 10, and now x is 10 instead of 1
 
 # global variables are variables that are defined outside of a function and can be accessed from anywhere in the code, they are defined using the global keyword 
-def cool():
-    print("cool!")
+def cool(): 
+    return("cool!")   # return is used becouse if I would use print it would the equivalent of print(f"cool!\npython is ") 
 
 def my_function(): 
-    print("python is" + " " + cool()) 
+    print("python is" + " " + f"{cool()}") 
 
 my_function()  # it would print "python is cool!" and now you can use it anywhere in the code, because it is a "global variable"
 
