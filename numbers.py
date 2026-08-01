@@ -117,8 +117,8 @@ no, the equation is not correct
 
 equation_prover_2() 
 
-# floor devision 
-# floor devision always rounds down so the number can become an integer 
+# floor division 
+# floor division always rounds down so the number can become an integer 
 # another equation -> p // q = int(p / q) 
 # to prove the equation works I will make another equation_prover that will be very similar to the first one 
 

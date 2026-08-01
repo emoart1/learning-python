@@ -82,7 +82,8 @@ if "Gab" in name:
 first_name = "Gabriel"
 last_name = "Martinez"
 full_name = first_name + " " + last_name
-print(full_name) # prints "Gabriel Martinez" 
+print(full_name) # prints "Gabriel Martinez"
+print("{} {}".format(first_name, last_name))
 
 # you can not combine strings with numbers using the + operator, you will get a TypeError
 # you can use formatting to combine strings and numbers using the format() method
